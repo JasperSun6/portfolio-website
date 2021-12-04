@@ -1,0 +1,15 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 8.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/thought-catalog-505eectW54k-unsplash.jpg);
+}
+
+.portfolio-header {
+  color: white;
+}

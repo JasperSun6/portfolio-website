@@ -1,0 +1,31 @@
+.contactForm {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #0d253f;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 8.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/luca-bravo-9l_326FISzk-unsplash.jpg);
+}
+
+@media only screen and (min-width: 37.5rem) {
+  .contactForm {
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 37.5rem) {
+  .contactForm {
+    padding: 3rem;
+  }
+}

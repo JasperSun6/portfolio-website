@@ -1,0 +1,47 @@
+.carousel-caption h2 {
+  color: #ad532d;
+  font-family: "Eczar", serif;
+}
+
+.carousel-caption p {
+  color: #ad532d;
+  font-size: 1.25em;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card {
+  max-width: 20rem;
+  height: 30rem;
+  margin: 0 auto;
+  transition: 1s;
+}
+.card-title {
+  font-family: "Work Sans", sans-serif;
+}
+.card-text {
+  font-family: "Roboto", sans-serif;
+}
+
+.card:hover {
+  color: rgb(243, 49, 23);
+  box-shadow: 0rem 1rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  transition: 1s;
+}
+
+.card:hover img {
+  opacity: 0.8;
+  transform: scale(1);
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60rem) {
+  .card {
+    max-width: 80%;
+  }
+}
