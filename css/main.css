@@ -21417,6 +21417,11 @@ textarea.form-control-lg {
   background-color: #000;
 }
 
+.carousel-item img {
+  min-height: 50rem;
+  object-fit: cover;
+}
+
 .carousel-caption h2, .carousel-caption .h2 {
   color: #fff;
   font-family: "Eczar", serif;
@@ -21455,11 +21460,6 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-width: 35rem) {
-  .show-text {
-    opacity: 0;
-  }
-}
 @media only screen and (min-width: 60rem) {
   .card {
     max-width: 80%;
