@@ -21402,7 +21402,7 @@ textarea.form-control-lg {
   top: -100rem;
   display: inline-block;
   padding: 1rem;
-  background-color: var(--color-gray);
+  background-color: var(--color-white);
   color: var(--color-black);
   font-weight: bold;
   text-decoration: none;
@@ -21436,12 +21436,16 @@ textarea.form-control-lg {
   background-color: var(--color-gray);
 }
 
+.bi {
+  margin-bottom: 0;
+}
+
 .carousel {
   background-color: var(--color-black);
 }
 
 .carousel-item img {
-  min-height: 50rem;
+  min-height: 60rem;
   object-fit: cover;
 }
 
@@ -21492,7 +21496,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 8.5rem);
+  min-height: calc(100vh - 3rem);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21515,7 +21519,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 8.5rem);
+  min-height: calc(100vh - 3rem);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

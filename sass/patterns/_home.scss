@@ -1,9 +1,12 @@
+.bi {
+  margin-bottom: 0;
+}
 .carousel {
   background-color: var(--color-black);
 }
 
 .carousel-item img {
-  min-height: 50rem;
+  min-height: 60rem;
   object-fit: cover;
 }
 .carousel-caption h2 {
