@@ -1,5 +1,5 @@
 .carousel {
-  background-color: #000;
+  background-color: var(--color-black);
 }
 
 .carousel-item img {
@@ -7,12 +7,12 @@
   object-fit: cover;
 }
 .carousel-caption h2 {
-  color: #fff;
+  color: var(--color-white);
   font-family: "Eczar", serif;
 }
 
 .carousel-caption p {
-  color: #fff;
+  color: var(--color-white);
   font-size: 1.25em;
   font-family: "Work Sans", sans-serif;
 }

@@ -1,5 +1,5 @@
 *:focus-visible {
-  outline: 2px solid red;
+  outline: 2px solid var(--color-red);
   outline-offset: 2px;
 }
 
@@ -14,8 +14,8 @@
   top: -100rem;
   display: inline-block;
   padding: 1rem;
-  background-color: gray;
-  color: black;
+  background-color: var(--color-gray);
+  color: var(--color-black);
   font-weight: bold;
   text-decoration: none;
   z-index: 100000;
@@ -23,4 +23,27 @@
 
 .skip-links a:focus {
   top: 0;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  color: var(--color-white);
+  background-color: var(--color-dark-gray);
+  padding: 0.65rem 0.55rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  text-decoration: none;
+  transform: translateY(100%);
+  transition: background-color 0.3s, color 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+.to-top.visible {
+  transform: none;
+}
+
+.to-top:hover,
+.to-top:focus {
+  color: var(--color-white);
+  background-color: var(--color-gray);
 }
